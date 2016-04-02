@@ -200,17 +200,18 @@ int n; //declaram variabila
         System.out.println("Nota maxima e: " +max);
         */
 
-        // sa se calculeze numerele introduse pana cand dam 0
+        // ALT EX: sa se calculeze numerele introduse pana cand dam 0
         int n; //declaram variabila
-        int sum = 0;
+        int sum = 0; // declaram o suma
 
         do
         {
-            n = readIntConsole("Introduceti un numar:");
-            sum += n
+            n = readIntConsole("Introduceti un numar:"); //cere numere
+            sum += n; //fa suma numerelor
 
         }
-        while( n != 0);
+        while( n != 0); //pana cand se introduce 0 (nu te opri pana cand nr e diferit de 0)
+        System.out.println("Suma este " +sum); // scrie care e suma
 
 
 
